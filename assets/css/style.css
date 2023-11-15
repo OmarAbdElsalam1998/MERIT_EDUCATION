@@ -270,10 +270,10 @@ animation: pulse-animation 2s infinite;
     height: calc(100vh - 110px );
   }
   .main-banner .content h1{
-    font-size: 45px;
+    font-size: 40px;
   }
 .main-banner .content h3{
-    font-size: 40px;
+    font-size: 35px;
 }
 .main-banner .content span{
   
@@ -460,6 +460,8 @@ animation: pulse-animation 2s infinite;
     background-color: #FFF;
     margin: 0 10px;
     transition: all .2s ease-in-out;
+    pointer-events: none;
+
 
 
 
@@ -505,12 +507,7 @@ animation: pulse-animation 2s infinite;
 
 
    }
-   .fill-application .registeration .flex-box .input-container label:focus{
-    color:var(--brand-default-color);
-    height: 30px;
-    line-height: 30px;
-    transform: translate(-1px,-40px) scale(0.88);
-   }
+ 
    .fill-application .registeration .action{
     text-align: center;
     padding: 20px 0;
